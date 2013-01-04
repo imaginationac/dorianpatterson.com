@@ -166,3 +166,5 @@ pip-log.txt
 ## Project
 #############
 .sass-cache/
+*.log
+src/output/

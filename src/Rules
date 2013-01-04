@@ -17,17 +17,22 @@ compile '/stylesheet/' do
   # don’t filter or layout
 end
 
+compile '/' do
+	filter :kramdown
+	layout 'default'
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items
   else
-    filter :erb
+	filter :haml
     layout 'default'
   end
 end
 
 route '/stylesheet/' do
-  '/style.css'
+  '/css/style.css'
 end
 
 route '*' do
@@ -40,4 +45,4 @@ route '*' do
   end
 end
 
-layout '*', :erb
+layout '*', :haml, { :format => :html5, :ugly => true }
