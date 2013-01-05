@@ -1,6 +1,6 @@
 @import "base";
 
-@include font-face("Alegreya", font-files("font/alegreya/Alegreya_Regular.otf"));
+@include font-face("Alegreya", font-files("fonts/alegreya/Alegreya_Regular.otf"));
 
 body{
 	font-family: Alegreya;
@@ -8,12 +8,12 @@ body{
 }
 
 #container{
-	max-width: 620px;
-	margin: auto;
+  max-width: 620px;
+  margin: auto;
 }
 
 h1, h2, footer{
-	text-align: center    
+  text-align: center    
 }
 
 h1{
@@ -38,7 +38,7 @@ p{
 		float: left;
 		margin-right: 10px;
 		border: solid black 1px
-}
+	}
 }
 
 a{
@@ -66,10 +66,10 @@ ul{
 				&:hover, &:focus{
 					background-color: #eef;
 					background-image: url("../images/#{$title}-48x48.png");
+				}
 			}
 		}
 	}
-}
 }
 
 footer{
