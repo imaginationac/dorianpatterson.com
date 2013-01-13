@@ -1,0 +1,27 @@
+!!! 5
+html
+  head
+    title #{getPreparedTitle()}
+    != getBlock("meta").toHTML();
+    != getBlock("styles").toHTML();
+  body
+    header
+      hgroup
+        h1: a(href="/") Dorian Patterson
+        h2 Game and Web Developer with Curly Hair
+      nav
+        ul
+          - var mainNav = { 'Home': '/', 'Blog': 'blog', 'Projects': 'projects', 'Resume': 'resume' }
+          each fragment, item in mainNav
+            li: a(href="#{fragment}") #{item}
+
+          
+
+    != content
+    != getBlock('scripts').toHTML()
+
+    footer
+      p &copy; 2013 Dorian Patterson.
+      p The source for this site is available on 
+        a(href='https://github.com/imaginationac/imaginationac.github.com') Github
+        .
