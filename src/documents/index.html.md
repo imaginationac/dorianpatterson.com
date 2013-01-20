@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: "default"
 title: "Home"
-isMainNav: true
+isPage: true
 ---
 <img src="http://www.gravatar.com/avatar/0ed066a74b066f5b634e7e72e7f350f7?s=200" width="200" height="200">
 
