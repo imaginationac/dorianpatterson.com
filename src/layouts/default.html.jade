@@ -2,18 +2,20 @@
 html
   head
     title #{getPreparedTitle()}
-    != getBlock("meta").toHTML();
-    != getBlock("styles").toHTML();
+    != getBlock("meta").toHTML()
+    != getBlock("styles").toHTML()
   body
     header
       hgroup
-        h1: a(href="/") Dorian Patterson
+        h1: a(href="/") #{site.title}
         h2 Game and Web Developer with Curly Hair
       nav
         ul
+          for page in getCollection("html").findAll({isPage:true}).toJSON()
+            li: a(href="#{page.url}") #{page.title}
 
     != content
-    != getBlock('scripts').toHTML();
+    != getBlock('scripts').toHTML()
 
     footer
       p &copy; 2013 Dorian Patterson.
