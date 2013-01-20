@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Game, Web Developer"
+title: "Home"
+isMainNav: true
 ---
 <img src="http://www.gravatar.com/avatar/0ed066a74b066f5b634e7e72e7f350f7?s=200" width="200" height="200">
 
