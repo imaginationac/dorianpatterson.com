@@ -1,33 +1,33 @@
 {
-	"name": "curly-hair-coder",
-	"version": "0.0.1",
-	"description": "The personal website of Dorian Alexander Patterson.",
-	"homepage": "http://imaginationac.github.com",
-	"keywords": [
-		"docpad",
-		"personal website",
-		"static site"
-	],
-	"author": "Dorian Patterson <imaginationac@gmail.com> (http://imaginationac.github.com)",
-	"maintainers": [
-		"Dorian Patterson <imaginationac@gmail.com> (http://imaginationac.github.com)"
-	],
-	"contributors": [
-		"Dorian Patterson <imaginationac@gmail.com> (http://imaginationac.github.com)"
-	],
-	"bugs": "https://github.com/imaginationac/imaginationac.github.com/issues" ,
-	"repository": {
-		"type": "git",
-		"url": "http://github.com/imaginationac/imaginationac.github.com.git"
-	},
-	"engines": {
-		"node": ">=0.8.0",
-		"npm": ">=1.2.0",
-		"docpad": ">=2.6.0"
-	}
-	"dependencies": {
-		"docpad-plugin-jade": "2.2.x",
-		"docpad-plugin-robotskirt": "2.0.x",
-		"docpad-plugin-livereload": "2.2.x"
-	}
+  "name": "curly-hair-coder",
+  "version": "0.0.1",
+  "description": "The personal website of Dorian Alexander Patterson.",
+  "homepage": "http://imaginationac.github.com",
+  "keywords": [
+    "docpad",
+    "personal website",
+    "static site"
+  ],
+  "author": "Dorian Patterson <imaginationac@gmail.com> (http://imaginationac.github.com)",
+  "maintainers": [
+    "Dorian Patterson <imaginationac@gmail.com> (http://imaginationac.github.com)"
+  ],
+  "contributors": [
+    "Dorian Patterson <imaginationac@gmail.com> (http://imaginationac.github.com)"
+  ],
+  "bugs": "https://github.com/imaginationac/imaginationac.github.com/issues",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/imaginationac/imaginationac.github.com.git"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.0",
+    "docpad": ">=2.6.0"
+  },
+  "dependencies": {
+    "docpad-plugin-jade": "2.2.x",
+    "docpad-plugin-robotskirt": "2.0.x",
+    "docpad-plugin-livereload": "2.2.x"
+  }
 }
