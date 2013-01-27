@@ -6,5 +6,5 @@ isPage: true
 p Here's a listing of all my blog posts, sorted in reverse chronological order.
 
 ul
-  for post in getCollection("html").findAllLive({relativeOutDirPath: "posts"}).toJSON()
-    li: a(href="#{post.url}") #{post.title}
+  for post in getCollection("posts").toJSON().sort(compareDate)
+    li: a(href="#{post.url}") #{post.title} - #{post.date}
