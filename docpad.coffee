@@ -10,6 +10,12 @@ docpadConfig = {
 	templateData:
 		site:
 			title: "Curly Hair Coder"
+			owner:
+				name: "Dorian Patterson"
+				email: "dorian.alexander.patterson@gmail.com"
+				accounts:
+					github: "imaginationac"
+					twitter: "imaginationac"
 }
 
 # Export the Configuration
