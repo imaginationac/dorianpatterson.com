@@ -2,9 +2,8 @@
 layout: "default"
 ---
 section.post
-  article
-    h1 #{document.title}
-    h2.post-meta 
-      a(href='mailto:#{site.owner.email}', title='Email #{site.owner.name}') #{site.owner.name}
-      |  | #{document.date}
-    != content
+	article
+		h1: a(href="#{document.url}", title="#{document.title}") #{document.title}
+		h2.post-meta Published on
+			time #{document.date}
+		!= content

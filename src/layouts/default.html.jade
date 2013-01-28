@@ -1,24 +1,24 @@
 !!! 5
 html(lang="en")
-  head
-    title #{getPreparedTitle()}
-    != getBlock("meta").toHTML()
-    != getBlock("styles").toHTML()
-  body
-    header
-      hgroup
-        h1: a(href="/") #{site.title}
-        h2 Game and Web Developer with Curly Hair
-      nav
-        ul
-          for page in getCollection('pages').toJSON()
-            li: a(href="#{page.url}") #{page.title}
+	head
+		title #{getPreparedTitle()}
+		!= getBlock("meta").toHTML()
+		!= getBlock("styles").add(["/style/style.css"]).toHTML()
+	body
+		header
+			hgroup
+				h1: a(href="/") #{site.title}
+				h2 Game and Web Developer with Curly Hair
+			nav
+				ul
+					for page in getCollection('pages').toJSON()
+						li: a(href="#{page.url}") #{page.title}
 
-    != content
-    != getBlock('scripts').toHTML()
+		!= content
+		!= getBlock('scripts').toHTML()
 
-    footer
-      p &copy; 2013 Dorian Patterson.
-      p The source for this site is available on 
-        a(href='https://github.com/imaginationac/imaginationac.github.com') Github
-        .
+		footer
+			p &copy; 2013 Dorian Patterson.
+			p The source for this site is available on 
+			a(href='https://github.com/imaginationac/imaginationac.github.com') Github
+			.
