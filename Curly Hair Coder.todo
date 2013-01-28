@@ -1,0 +1,10 @@
+Current Tasks:
+☐ Review post layout
+☐ Create the design. 
+	☐ Create base style.
+☐ Set up build process.
+	☐ Install node & npm
+	☐ Checkout source branch
+	☐ Install dependencies (npm install)
+	☐ Run docpad from the top of the project.
+	☐ Append output to a log file.
