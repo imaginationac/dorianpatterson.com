@@ -2,5 +2,5 @@
 	== yield
 
 	ul
-		- data.owner.social.each do |key, value|
-			li: a(href="#{value}") #{key}
+		- data.owner.social.each do |service, href|
+			li: a(href="#{href}") #{service.capitalize}
