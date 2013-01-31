@@ -1,6 +1,7 @@
 ---
-title: "Home"
-id: "home"
+title: Home
+id: home
+layout: index.slim
 ---
 <img src="http://www.gravatar.com/avatar/0ed066a74b066f5b634e7e72e7f350f7?s=200" width="200" height="200">
 
@@ -13,7 +14,3 @@ with front-end web tech (HTML, CSS, JavaScript) and some back-end stuff
 too (PHP, Node.js).
 
 Feel free to contact me via any of the means below.
-
-- [Email](mailto:dorian.alexander.patterson@gmail.com)
-- [Twitter](http://twitter.com/imaginationac)
-- [Github](http://github.com/imaginationac)

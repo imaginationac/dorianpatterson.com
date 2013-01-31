@@ -1,0 +1,6 @@
+= wrap_layout :layout do
+	== yield
+
+	ul
+		- data.owner.social.each do |key, value|
+			li: a(href="#{value}") #{key}
