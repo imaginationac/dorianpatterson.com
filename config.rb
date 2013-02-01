@@ -24,6 +24,7 @@ require 'kramdown'
 ###
 # Page options, layouts, aliases and proxies
 ###
+activate :directory_indexes
 
 # Per-page layout changes:
 #
