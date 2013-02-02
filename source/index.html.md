@@ -3,7 +3,7 @@ title: Home
 id: home
 layout: index.slim
 ---
-<img src="http://www.gravatar.com/avatar/0ed066a74b066f5b634e7e72e7f350f7?s=200" width="200" height="200">
+<img src="/img/gravatar.jpg" width="200" height="200">
 
 Hey, I'm Dorian. I make things with computers. Some examples: web sites and 
 apps, video games, the occasional beat, very poorly drawn art, animation.
