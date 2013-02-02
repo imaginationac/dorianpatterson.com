@@ -13,6 +13,14 @@ html[lang="en"]
 				h2 Game and Web Developer with Curly Hair
 			nav
 				ul
+					/* TODO: Clean up navigation code and migrate it to config.rb */
+					- pages = []
+					- sitemap.resources.each do |r|
+						- if (r.ext == '.html')
+							- pages.push(r)
+					- pages.each do |page|
+						li: a(href="#{page.url}") #{page.metadata[:page]["title"]}
+
 		- if current_page.data.id?
 			.wrap(id="#{current_page.data.id}")
 				== yield
