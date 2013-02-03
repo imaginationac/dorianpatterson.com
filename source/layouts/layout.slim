@@ -16,7 +16,7 @@ html[lang="en"]
 					/* TODO: Clean up navigation code and migrate it to config.rb */
 					- pages = []
 					- sitemap.resources.each do |r|
-						- if (r.ext == '.html')
+						- if (r.metadata[:page]['nav'])
 							- pages.push(r)
 					- pages.each do |page|
 						li: a(href="#{page.url}") #{page.metadata[:page]["title"]}
