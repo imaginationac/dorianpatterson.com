@@ -25,10 +25,12 @@ require 'kramdown'
 # Page options, layouts, aliases and proxies
 ###
 activate :directory_indexes
+
 # Blog
 activate :blog do |blog|
   blog.prefix = "blog"
 end
+
 # Per-page layout changes:
 #
 # With no layout
