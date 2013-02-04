@@ -3,7 +3,7 @@ body > header
 
   h1
     font-family: "Linux Libertine", serif
-    font-size: 4.9em
+    font-size: 4.8em
     margin: 0.25em 0 0.1em
     &:before
       content: "{"
@@ -20,3 +20,13 @@ body > header
   li
     display: inline
     margin: 0 1em 0 0
+
+.home, .blog
+  font-family: FontAwesome
+  margin: 0 1em 0 0
+
+.home
+  @extend .icon-home
+
+.blog
+  @extend .icon-pencil

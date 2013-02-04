@@ -19,7 +19,9 @@ html[lang="en"]
 						- if (r.metadata[:page]['nav'])
 							- pages.push(r)
 					- pages.each do |page|
-						li: a(href="#{page.url}") #{page.metadata[:page]["title"]}
+						li
+							span(class="#{page.metadata[:page]['title'].downcase}")
+							a(href="#{page.url}") #{page.metadata[:page]["title"]}
 
 		- if current_page.data.id?
 			.wrap(id="#{current_page.data.id}")

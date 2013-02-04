@@ -50,19 +50,19 @@ a
     &, a
       display: block
 
-  @mixin a-social
-    background: hsl(220, 50, 50)
-    // box-shadow: 2px 2px 1px #888
-    color: #fff
-    font-weight: bold
-    line-height: 3em
-    min-height: 3em
-    text-decoration: none
-    // text-indent: 4em
-    // &:active
-    //   box-shadow: inset 3px 3px 1px #666
   
   a
     @include a-social
+  span
+    font-family: FontAwesome
+    font-size: 2em
+    margin: 0 0.3em
+
+  .email
+    @extend .icon-envelope-alt
+
+  .twitter
+    @extend .icon-twitter
 
   .github
+    @extend .icon-github
