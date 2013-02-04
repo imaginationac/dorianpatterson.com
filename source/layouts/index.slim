@@ -3,4 +3,7 @@
 
 	ul
 		- data.owner.social.each do |service, href|
-			li: a(href="#{href}") #{service.capitalize}
+			li 
+				a(href="#{href}" class="#{service}" target="_blank")
+					span
+					= service.capitalize
