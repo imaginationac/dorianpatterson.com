@@ -3,13 +3,13 @@
 @import modules/footer
 
 body
-  background: $site-bg
-  max-width: $max-width
+  background: $site_bg
+  max-width: $max_width
   margin: auto
   font-family: "Cabin", sans-serif
 
 a
-  color: $link-color
+  color: $link_color
   text-decoration: none
   &:hover, &:focus
     text-decoration: underline
@@ -19,6 +19,16 @@ a
   margin: 1em 0
 
 #home
+  @mixin a-social
+    // color: #000
+    font-weight: bold
+    line-height: 3em
+    min-height: 3em
+    text-decoration: none
+    &:focus, &:hover
+      color: #fff
+      background: $link_color
+
   p
     margin: 0 0 1.8em
     &:last-of-type
@@ -32,11 +42,11 @@ a
     float: left
 
   li
-    $social-gutter: 10px
+    $social_gutter: 10px
 
     float: left
-    width: $max-width / 3 - $social-gutter
-    margin: 0 $social-gutter 0 0
+    width: $max_width / 3 - $social_gutter
+    margin: 0 $social_gutter 0 0
     &, a
       display: block
 
