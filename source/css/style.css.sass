@@ -1,6 +1,7 @@
 @import base
 @import modules/header
 @import modules/footer
+@import home
 
 body
   background: $site_bg
@@ -18,51 +19,10 @@ a
   +clearfix
   margin: 1em 0
 
-#home
-  @mixin a-social
-    // color: #000
-    font-weight: bold
-    line-height: 3em
-    min-height: 3em
-    text-decoration: none
-    &:focus, &:hover
-      color: #fff
-      background: $link_color
+section
+  h1, h2
+    font-family: "Linux Libertine"
 
-  p
-    margin: 0 0 1.8em
-    &:last-of-type
-      margin: 0 0 1em
-
-  img
-    float: left
-    margin: 0 1em 0 0
-
-  ul
-    float: left
-
-  li
-    $social_gutter: 10px
-
-    float: left
-    width: $max_width / 3 - $social_gutter
-    margin: 0 $social_gutter 0 0
-    &, a
-      display: block
-
-  
-  a
-    @include a-social
-  span
-    font-family: FontAwesome
+  h1
     font-size: 2em
-    margin: 0 0.3em
-
-  .email
-    @extend .icon-envelope-alt
-
-  .twitter
-    @extend .icon-twitter
-
-  .github
-    @extend .icon-github
+    text-align: center
