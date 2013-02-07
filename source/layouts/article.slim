@@ -2,5 +2,5 @@
 	section
 		article.post
 			h1 == link_to current_page.data.title, current_page.url
-			h2.post-meta by #{data.owner.name} on #{current_page.data.date.strftime('%B %-d, %Y')}
+			h2.post-meta by #{data.owner.name} on #{current_page.data.date}
 			== yield
