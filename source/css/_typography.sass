@@ -30,3 +30,16 @@ $font_code_style_regular: "Regular"
 +font-face("Cabin", font-files("#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_bold_italic}#{$font_body_suffix}woff", "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_bold_italic}#{$font_body_suffix}ttf", "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_bold_italic}#{$font_body_suffix}svg"), "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_bold_italic}#{$font_body_suffix}eot", bold, italic)
 
 +font-face("Source Code Pro", font-files("#{$font_code_dir}/#{$font_code_prefix}#{$font_code_style_regular}#{$font_code_suffix}woff","#{$font_code_dir}/#{$font_code_prefix}#{$font_code_style_regular}#{$font_code_suffix}ttf","#{$font_code_dir}/#{$font_code_prefix}#{$font_code_style_regular}#{$font_code_suffix}svg"),"#{$font_code_dir}/#{$font_code_prefix}#{$font_code_style_regular}#{$font_code_suffix}eot")
+@mixin open_quote($single: true)
+  &:before
+    @if $single
+      content: "\2018"
+    @else
+      content: "\201C"
+    
+@mixin close_quote($single: true)
+  &:after
+    @if $single
+      content: "\2019"
+    @else
+      content: "\201D"
