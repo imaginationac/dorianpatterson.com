@@ -31,7 +31,7 @@ activate :blog do |blog|
   blog.prefix = "blog"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
-  blog.layout = "post"
+  blog.layout = "article"
 end
 
 # Per-page layout changes:
