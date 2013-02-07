@@ -1,7 +1,7 @@
 @import compass/css3/font-face
 @import fonts/fontawesome/fontawesome
 
-// Site Heading
+// Headings
 // Linux Libertine
 $font_heading_dir:  "linux-libertine"
 $font_heading_regular_prefix: "LinLibertine_R-webfont"
@@ -12,7 +12,20 @@ $font_body_dir: "cabin"
 $font_body_prefix: "Cabin-"
 $font_body_suffix: "-webfont."
 $font_body_style_regular: "Regular"
+$font_body_style_bold: "Bold"
+$font_body_style_italic: "Italic"
+$font_body_style_bold_italic: "BoldItalic"
+
+// code, pre
+$font_code_dir: "source_code_pro"
+$font_code_prefix: "SourceCodePro-"
+$font_code_suffix: "-webfont."
+$font_code_style_regular: "Regular"
 
 +font-face("Linux Libertine", font-files("#{$font_heading_dir}/#{$font_heading_regular_prefix}.woff","#{$font_heading_dir}/#{$font_heading_regular_prefix}.ttf","#{$font_heading_dir}/#{$font_heading_regular_prefix}.svg"), "#{$font_heading_dir}/#{$font_heading_regular_prefix}.eot")
 
 +font-face("Cabin", font-files("#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_regular}#{$font_body_suffix}woff", "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_regular}#{$font_body_suffix}ttf", "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_regular}#{$font_body_suffix}svg"), "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_regular}#{$font_body_suffix}eot")
++font-face("Cabin", font-files("#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_bold}#{$font_body_suffix}woff", "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_bold}#{$font_body_suffix}ttf", "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_bold}#{$font_body_suffix}svg"), "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_bold}#{$font_body_suffix}eot", bold)
++font-face("Cabin", font-files("#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_italic}#{$font_body_suffix}woff", "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_italic}#{$font_body_suffix}ttf", "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_italic}#{$font_body_suffix}svg"), "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_italic}#{$font_body_suffix}eot", normal, italic)
++font-face("Cabin", font-files("#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_bold_italic}#{$font_body_suffix}woff", "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_bold_italic}#{$font_body_suffix}ttf", "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_bold_italic}#{$font_body_suffix}svg"), "#{$font_body_dir}/#{$font_body_prefix}#{$font_body_style_bold_italic}#{$font_body_suffix}eot", bold, italic)
+
