@@ -25,7 +25,7 @@ I went through several other static site generators before settling on
 
 ### Octopress
 
-[Octopress] seemed really cool. It extended Jekyll and even had a deploy script
+[Octopress](http://octopress.org) seemed really cool. It extended Jekyll and even had a deploy script
 for using Github (as the base project is not directly compatible). Ironically, I
 think part of the reason I originally passed was involved learning *some*
 [Ruby](http://www.ruby-lang.org/en/) code.
