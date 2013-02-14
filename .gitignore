@@ -15,3 +15,6 @@
 
 # Ignore bundler binstubs directory
 /bin
+
+# Ignore rake directory
+/rake
