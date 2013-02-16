@@ -1,4 +1,4 @@
-source :rubygems
+source "https://rubygems.org"
 
 gem "kramdown", "~>0.14.2"
 gem "middleman", "~>3.0.11"
