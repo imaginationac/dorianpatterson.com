@@ -29,7 +29,8 @@ Vagrant::Config.run do |config|
 
   # Forward a port from the guest to the host, which allows for outside
   # computers to access the VM, whereas host only networking does not.
-  config.vm.forward_port 4567, 4567
+  config.vm.forward_port 4567, 4567		# Default middleman server port
+  config.vm.forward_port 35729, 35729	# Default middleman-livereload port
 
   # Share an additional folder to the guest VM. The first argument is
   # an identifier, the second is the path on the guest to mount the
