@@ -18,3 +18,9 @@
 
 # Ignore rake directory
 /rake
+
+# Ignore .vagrant file
+.vagrant
+
+# Ingore whatever the hell .nfs* files are.
+.nfs*
