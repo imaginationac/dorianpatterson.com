@@ -26,6 +26,7 @@ git clone https://github.com/imaginationac/imaginationac.github.com.git
 bundle [install --binstubs]
 bundle exec middleman server
 ```
+
 Please make any pull requests on the `develop` branch and use a descriptive
 branch name.
 
