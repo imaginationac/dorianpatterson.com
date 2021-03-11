@@ -1,4 +1,4 @@
-[Curly Hair Coder](http://imaginationac.github.com)
+[Curly Hair Coder](https://dorianpatterson.com)
 ========================
 
 Game and Web Developer with Curly Hair
