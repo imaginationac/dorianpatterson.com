@@ -9,12 +9,14 @@
 <body>
     {{ partial "header" . }}
     {{ .Content }}
-    <ul>
-        <!-- Iterate through the contact links. -->
-        {{ range $index, $element := .Site.Data.social }}
-            <li><a href="{{ $element }}">{{ $index }}</a></li>
-        {{ end}}
-    </ul>
+    {{ if .IsHome }}
+        <ul>
+            <!-- Iterate through the contact links. -->
+            {{ range $index, $element := .Site.Data.social }}
+                <li><a href="{{ $element }}">{{ $index }}</a></li>
+            {{ end}}
+        </ul>
+    {{ end }}
     {{ partial "footer" . }}
 </body>
 </html>
