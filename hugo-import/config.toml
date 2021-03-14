@@ -4,5 +4,6 @@ title = "Dorian Patterson, a Curly Hair Coder"
 sectionPagesMenu = "main"
 
 [params]
-    sourceName = "Github"
+    sourceName = "GitHub"
     sourceURL = "https://github.com/imaginationac"
+    owner = "Dorian Patterson"
