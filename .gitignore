@@ -27,3 +27,6 @@
 
 # Ignore vscode settings.
 .vscode/
+
+# Ignore hugo resource cache
+resources/
