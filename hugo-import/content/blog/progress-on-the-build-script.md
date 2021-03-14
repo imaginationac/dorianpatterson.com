@@ -1,6 +1,6 @@
 ---
 title: Progress on the Build Script
-date: 2013-02-17 22:44 -05:00
+date: 2013-02-17T22:44:00-05:00
 tags: build-script, vagrant, middleman
 ---
 

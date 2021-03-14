@@ -1,6 +1,6 @@
 ---
 title: Welcome to Curly Hair Coder!
-date: 2013-02-07 17:39 -05:00
+date: 2013-02-07T17:39:00-05:00
 draft: true
 tags: []
 categories: []
