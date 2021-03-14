@@ -1,10 +1,10 @@
 [Curly Hair Coder](https://dorianpatterson.com)
-========================
+===============================================
 
 Game and Web Developer with Curly Hair
 --------------------------------------
 
-This is the personal website of Dorian Alexander Patterson. Glad to meet'ya!
+This is the personal website of Dorian Alexander Patterson. Glad to meet ya!
 
 There isn't much here at the moment, but if you feel like using anything, you
 can as long as you give proper credit.  All the content in the posts copyrighted
@@ -16,21 +16,19 @@ a license; use the [MIT License](LICENSE).
 
 ### Requirements
 
-- Ruby 1.9.3 with the ability to make native extensions.
-- Bundler
+- hugo 0.81.0+
 
 ### How to Start
 
-```sh
-git clone https://github.com/imaginationac/imaginationac.github.com.git
-bundle [install --binstubs]
-bundle exec middleman server
+```
+hugo server -D
 ```
 
-Please make any pull requests on the `develop` branch and use a descriptive
-branch name.
+### How to Contribute
+
+TBD
 
 ### Want more info?
 
 The technology, resources, and future development are all available on
-[this publicly viewable Trello board](https://trello.com/b/dAENVNVU).
+[this publicly viewable Notion notebook](https://www.notion.so/b602dac5b5af427898680389978bbff0?v=1b028756b9b04139ae232b4f83ebb706).

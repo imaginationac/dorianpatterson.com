@@ -1,0 +1,7 @@
+baseURL = "https://dorianpatterson.com"
+languageCode = "en-us"
+title = "Dorian Patterson, a Curly Hair Coder"
+
+[params]
+    sourceName = "Github"
+    sourceURL = "https://github.com/imaginationac"
