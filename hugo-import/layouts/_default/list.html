@@ -9,6 +9,8 @@
 <ul>
     {{ range .Pages }}
         <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        <!-- TODO: Add excerpt from posts.-->
+        <p>{{ .Summary }}</p>
     {{ end }} 
 </ul>
 {{ end }}
