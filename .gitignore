@@ -24,3 +24,6 @@
 
 # Ingore whatever the hell .nfs* files are.
 .nfs*
+
+# Ignore vscode settings.
+.vscode/
