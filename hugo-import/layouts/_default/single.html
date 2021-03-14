@@ -1,7 +1,8 @@
 {{ define "main" }}
 <article class="post">
-   <h3>{{ .Page.Title }}</h1>
-   <h4>by Dorian Patterson {{ .Page.Date }}</h2>
+   <h3>{{ .Page.Title }}</h3>
+   <h4>by <span class="author">{{ .Site.Params.Owner }}</span> 
+      on <time datetime="{{ .Page.Date }}">{{ .Page.Date.Format "January 2, 2006" }}</time> </h4>
    {{ .Content }} 
 </article>
 {{ end }}
