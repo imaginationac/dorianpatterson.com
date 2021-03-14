@@ -1,6 +1,6 @@
 +++
 date = "2013-02-17T22:44:00-05:00"
-tags = [build-script, vagrant, middleman]
+tags = ["build-script", "vagrant", "middleman"]
 title = "Progress on the Build Script"
 
 +++
