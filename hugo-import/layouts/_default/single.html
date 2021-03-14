@@ -1,3 +1,7 @@
 {{ define "main" }}
+<article class="post">
+   <h3>{{ .Page.Title }}</h1>
+   <h4>by Dorian Patterson {{ .Page.Date }}</h2>
    {{ .Content }} 
+</article>
 {{ end }}
