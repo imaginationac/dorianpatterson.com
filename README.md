@@ -16,7 +16,8 @@ a license; use the [MIT License](LICENSE).
 
 ### Requirements
 
-- hugo 0.81.0+
+- hugo extended 0.81.0+
+- sass 1.32.8+
 
 ### How to Start
 
