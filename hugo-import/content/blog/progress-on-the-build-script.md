@@ -5,7 +5,7 @@ tags: build-script, vagrant, middleman
 ---
 
 Since the first post, I've been looking at various technologies to make
-maintaining the site easier.{::comment}READMORE{:/} I wanted to start with
+maintaining the site easier.<!--more--> I wanted to start with
 writing a build script that would automate the generation of the static files,
 run any tests (of which I currently have none) and deploy the site, all in one
 step if possible.

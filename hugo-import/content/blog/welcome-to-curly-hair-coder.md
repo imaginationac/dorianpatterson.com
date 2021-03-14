@@ -8,7 +8,7 @@ categories: []
 
 This has been a long time coming, too long in fact, but here it is at last.
 Version 1.0.0 of Curly Hair Coder is now live!
-{::comment}READMORE{:/}
+<!--more-->
 
 ## Postmortem
 
