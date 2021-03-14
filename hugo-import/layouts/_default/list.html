@@ -1,7 +1,10 @@
 {{ define "title" }}
-   {{ singularize .Title }} &dash; {{ .Site.Title }}
+   {{ .Title }} &dash; {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
+{{ block "list-title" . }}
+<h3>{{ .Title }}</h3>
+{{ end }}
 {{ .Content }}
 <ul>
     {{ range .Pages }}
