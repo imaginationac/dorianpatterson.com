@@ -1,8 +1,9 @@
----
-title: Progress on the Build Script
-date: 2013-02-17T22:44:00-05:00
-tags: build-script, vagrant, middleman
----
++++
+date = "2013-02-17T22:44:00-05:00"
+tags = [build-script, vagrant, middleman]
+title = "Progress on the Build Script"
+
++++
 
 Since the first post, I've been looking at various technologies to make
 maintaining the site easier.<!--more--> I wanted to start with

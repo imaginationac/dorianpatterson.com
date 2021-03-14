@@ -1,10 +1,11 @@
----
-title: Welcome to Curly Hair Coder!
-date: 2013-02-07T17:39:00-05:00
-draft: true
-tags: []
-categories: []
----
++++
+categories = []
+date = "2013-02-07T17:39:00-05:00"
+draft = true
+tags = []
+title = "Welcome to Curly Hair Coder!"
+
++++
 
 This has been a long time coming, too long in fact, but here it is at last.
 Version 1.0.0 of Curly Hair Coder is now live!
