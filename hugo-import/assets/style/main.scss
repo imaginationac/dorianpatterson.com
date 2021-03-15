@@ -1,0 +1,59 @@
+@import "normalize.scss";
+@import "mixins.scss";
+@import "colors.scss";
+
+html{
+    background: aqua;
+    height: 100%;
+
+    body{
+        background: #ffffff;
+        max-width: 800px;
+        margin: 0px auto;
+        height: 100%;
+    }
+}
+
+// Header
+header{
+    
+}
+#site-name{
+    margin: 0;
+    text-align: center;
+}
+
+#site-subtitle{
+    text-align: center;
+}
+ul{
+    padding-left: 0;
+}
+nav, #contact-links{
+    max-width: max-content;
+    margin: auto;
+}
+
+nav ul li, #contact-links li {
+    @include horizontal-menu;
+}
+
+img{
+    float: left;
+    margin-right: 3em;
+    box-shadow: 5px 5px 5px black;
+    transform: rotate(-19deg);
+    border{
+        color: black;
+    };
+}
+
+#contact-links{
+    margin-top: 4em;
+    clear: left;
+}
+
+footer{
+    font-size: 0.9em;
+    text-align: center;
+}
