@@ -1,0 +1,8 @@
+{{ if .IsHome }}
+    <ul id="contact-links">
+        <!-- Iterate through the contact links. -->
+        {{ range $index, $element := .Site.Data.social }}
+            <li><a href="{{ $element }}">{{ $index }}</a></li>
+        {{ end}}
+    </ul>
+{{ end }}

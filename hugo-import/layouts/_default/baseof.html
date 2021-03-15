@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Process Sass -->
+    {{ $style := resources.Get "style/main.scss" | toCSS }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
     <title>
     {{ block "title" . }}
         {{ .Site.Title }}
@@ -12,16 +15,10 @@
 </head>
 <body>
     {{ partial "header" . }}
-    {{ block "main" . }}
-    {{ end }}
-    {{ if .IsHome }}
-        <ul>
-            <!-- Iterate through the contact links. -->
-            {{ range $index, $element := .Site.Data.social }}
-                <li><a href="{{ $element }}">{{ $index }}</a></li>
-            {{ end}}
-        </ul>
-    {{ end }}
+    <main>
+        {{ block "main" . }}
+        {{ end }}
+    </main>
     {{ partial "footer" . }}
 </body>
 </html>
