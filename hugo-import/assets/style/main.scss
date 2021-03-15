@@ -11,13 +11,13 @@ html{
         max-width: 800px;
         margin: 0px auto;
         height: 100%;
+        
+        main{
+            background-color:inherit;
+        }
     }
 }
 
-// Header
-header{
-    
-}
 #site-name{
     margin: 0;
     text-align: center;
