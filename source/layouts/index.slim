@@ -1,9 +1,0 @@
-= wrap_layout :layout do
-	== yield
-
-	ul
-		- data.owner.social.each do |service, href|
-			li 
-				a(href="#{href}" target="_blank")
-					span(class="#{service}")
-					= service.capitalize

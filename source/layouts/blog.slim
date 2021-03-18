@@ -1,9 +1,0 @@
-= wrap_layout :layout do
-	section
-		h1 = current_page.data.title
-		p This is collection of blog postings, listed in reverse chronological order.
-		- page_articles.each_with_index do |article, i|
-			article.blog-listing
-				hgroup
-					h1 == link_to article.title, article
-					h2 == article.summary
