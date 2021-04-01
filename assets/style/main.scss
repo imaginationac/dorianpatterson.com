@@ -11,6 +11,7 @@ html{
         max-width: 800px;
         margin: 0px auto;
         height: 100%;
+        padding: inherit 10px;
 
         main{
             background-color: inherit;
@@ -73,3 +74,31 @@ footer{
 .summary{
     margin: auto 10px;
 }
+
+.byline{
+    text-align: center;
+}
+
+.tags{
+    padding-top: 1em;
+    padding-left: 2em;
+
+
+    ul{
+        display: inline;
+        padding: 0;
+        li{
+            display: inline;
+            padding: 0 0.5em 0 0;
+        }
+    }
+}
+
+main p, main h2 {
+    padding: 0 30px;
+}
+
+main p:last-child{
+    padding-bottom: 1em;
+}
+
