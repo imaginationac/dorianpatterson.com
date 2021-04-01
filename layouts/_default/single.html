@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article class="post">
+   <header>
+      <h3>{{ .Title }}</h3>
+      <div class="byline">
+         by <span class="author">{{ .Site.Params.Owner }}</span>
+         on <time datetime="{{ .Page.Date }}">{{ .Date.Format "January 2, 2006" }}</time>
+      </div>
+      {{ if .Param "categories" }}
+      <div class="category">Category: {{ partial "categories" . }}</div>
+      {{ end }}
+      {{ if .Param "tags" }}
+      <div class="tags">Tags: {{ partial "tags" . }}</div>
+      {{ end }}
+   </header>
+   {{ .Content }}
+</article>
+{{ end }}

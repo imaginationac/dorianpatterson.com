@@ -1,0 +1,9 @@
+baseURL = "https://dorianpatterson.com"
+languageCode = "en-us"
+title = "Dorian Patterson, a Curly Hair Coder"
+sectionPagesMenu = "main"
+
+[params]
+    sourceName = "GitHub"
+    sourceURL = "https://github.com/imaginationac"
+    owner = "Dorian Patterson"

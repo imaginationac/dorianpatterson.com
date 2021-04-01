@@ -1,0 +1,104 @@
+@import "normalize.scss";
+@import "mixins.scss";
+@import "colors.scss";
+
+html{
+    background: aqua;
+    height: 100%;
+
+    body{
+        background: #ffffff;
+        max-width: 800px;
+        margin: 0px auto;
+        height: 100%;
+        padding: inherit 10px;
+
+        main{
+            background-color: inherit;
+            h3{
+                text-align: center;
+            }
+        }
+    }
+}
+
+#site-name{
+    margin: 0;
+    text-align: center;
+}
+
+#site-subtitle{
+    text-align: center;
+}
+ul{
+    padding-left: 0;
+}
+nav, #contact-links{
+    max-width: max-content;
+    margin: auto;
+}
+
+nav ul li, #contact-links li {
+    @include horizontal-menu;
+}
+
+img{
+    float: left;
+    margin-right: 3em;
+    box-shadow: 5px 5px 5px black;
+    transform: rotate(-19deg);
+    border{
+        color: black;
+    };
+}
+
+#contact-links{
+    margin-top: 4em;
+    clear: left;
+}
+
+footer{
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.list li{
+    list-style: none;
+    margin: auto 10px;
+}
+
+.list-summary{
+    text-align: center;
+}
+
+.summary{
+    margin: auto 10px;
+}
+
+.byline{
+    text-align: center;
+}
+
+.tags{
+    padding-top: 1em;
+    padding-left: 2em;
+
+
+    ul{
+        display: inline;
+        padding: 0;
+        li{
+            display: inline;
+            padding: 0 0.5em 0 0;
+        }
+    }
+}
+
+main p, main h2 {
+    padding: 0 30px;
+}
+
+main p:last-child{
+    padding-bottom: 1em;
+}
+

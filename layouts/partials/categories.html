@@ -1,0 +1,11 @@
+<!-- layouts/partials/tags.html -->
+{{ $taxonomy := "categories" }} {{ with .Param $taxonomy }}
+<ul class="categories">
+  {{ range $index, $category := . }} {{ with $.Site.GetPage (printf "/%s/%s"
+  $taxonomy $category) -}}
+  <li>
+    <a href="{{ .Permalink }}">{{ $category | urlize }}</a>
+  </li>
+  {{- end -}} {{- end -}}
+</ul>
+{{ end }}
