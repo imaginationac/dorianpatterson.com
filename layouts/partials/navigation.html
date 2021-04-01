@@ -1,9 +1,8 @@
 <nav>
     <ul>
         <li><a href="{{ .Site.BaseURL }}">Home</a></li>
-        <!--TODO: Add navigation links for blog, etc.-->
         {{ range .Site.Menus.main }}
-            <li><a href="{{ .URL }}">{{ .Name }} </a></li> 
+            <li><a href="{{ .URL }}">{{ .Name }} </a></li>
         {{ end }}
     </ul>
 </nav>
