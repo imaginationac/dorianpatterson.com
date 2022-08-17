@@ -2,6 +2,7 @@ baseURL = "https://dorianpatterson.com"
 languageCode = "en-us"
 title = "Dorian Patterson, a Curly Hair Coder"
 sectionPagesMenu = "main"
+relativeURLs = true
 
 [params]
     sourceName = "GitHub"
