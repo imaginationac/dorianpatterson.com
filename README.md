@@ -1,8 +1,6 @@
-[Curly Hair Coder](https://dorianpatterson.com)
-===============================================
+# [Curly Hair Coder](https://dorianpatterson.com)
 
-Game and Web Developer with Curly Hair
---------------------------------------
+## Game and Web Developer with Curly Hair
 
 This is the personal website of Dorian Alexander Patterson. Glad to meet ya!
 
@@ -21,7 +19,7 @@ a license; use the [MIT License](LICENSE).
 
 ### How to Start
 
-```
+```shell
 hugo server -D
 ```
 
