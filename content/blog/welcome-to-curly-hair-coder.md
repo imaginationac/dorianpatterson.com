@@ -1,7 +1,7 @@
 +++
 categories = []
 date = "2013-02-07T17:39:00-05:00"
-draft = true
+draft = false
 tags = []
 title = "Welcome to Curly Hair Coder!"
 

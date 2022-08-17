@@ -1,7 +1,7 @@
 +++
 categories = []
 date = "2021-03-14T00:15:55-05:00"
-draft = true
+draft = false
 tags = []
 title = "Blog"
 
