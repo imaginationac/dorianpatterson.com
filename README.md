@@ -14,13 +14,12 @@ a license; use the [MIT License](LICENSE).
 
 ### Requirements
 
-- hugo extended 0.81.0+
-- sass 1.32.8+
+- docker-compose 2.7.0+
 
 ### How to Start
 
 ```shell
-hugo server -D
+docker compose up
 ```
 
 ### How to Contribute
