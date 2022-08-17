@@ -30,3 +30,6 @@
 
 # Ignore hugo resource cache
 resources/
+
+# Ignore hugo lock
+.hugo_build.lock
