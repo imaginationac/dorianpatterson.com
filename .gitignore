@@ -33,3 +33,6 @@ resources/
 
 # Ignore hugo lock
 .hugo_build.lock
+
+# Ignore public directory
+public/
