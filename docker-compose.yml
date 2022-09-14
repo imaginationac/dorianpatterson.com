@@ -1,12 +1,6 @@
 version: '3'
 
 services:
-  hugo:
-    image: jakejarvis/hugo-extended:latest
-    volumes:
-      - ./:/src
-    command: --watch
-
 # Use nginx to serve the generated files
   nginx:
     image: nginx:latest
