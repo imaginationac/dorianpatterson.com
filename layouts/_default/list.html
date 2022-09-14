@@ -8,7 +8,7 @@
 <div class="list-summary">{{ .Content }}</div>
 <ul class="list">
     {{ range .Pages }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         <div class="summary">{{ .Summary }}</div>
     {{ end }}
 </ul>
